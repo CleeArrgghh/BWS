@@ -1,0 +1,105 @@
+
+
+
+.card {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.card-title {
+  color: #6f42c1; /* Spa theme color */
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  border-radius: 10px; /* Rounded input fields */
+  border: 1px solid #e0e0e0; /* Light border */
+  transition: border-color 0.3s; /* Smooth border transition */
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #6f42c1; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(111, 66, 193, 0.5); /* Soft focus shadow */
+}
+
+.btn-primary {
+  background-color: #6f42c1; /* Spa theme color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded button */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+  background-color: #5a31a1; /* Darker shade on hover */
+}
+
+label {
+  font-weight: 500; /* Bold labels */
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin: 10px; /* Margin for smaller screens */
+  }
+}
+.btn-primary {
+  background-color: #6f42c1; /* Spa theme color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded button */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color and scale */
+}
+
+.btn-primary:hover {
+  background-color: #5a31a1; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+.btn-primary {
+  background-color: #6f42c1; /* Spa theme color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded button */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition for background color, scale, and shadow */
+}
+
+.btn-primary:hover {
+  background-color: #5a31a1; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+
+/* Custom Styles for Date Input */
+input[type="date"] {
+    border: 2px solid #6a1b9a; /* Customize border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding for better touch area */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Focus effect */
+input[type="date"]:focus {
+    border-color: #d5006d; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(213, 0, 109, 0.5); /* Shadow effect */
+}
+
+/* Placeholder color */
+input[type="date"]::placeholder {
+    color: #aaa; /* Placeholder color */
+    opacity: 1; /* Ensure visibility */
+}
+
+
+
+
+
+
+
+
+
+
+
+
